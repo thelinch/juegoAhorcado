@@ -120,7 +120,7 @@ function cambiarImagenAhorcado(isIgual) {
             culminacionJuego();
         }
         $("span.fallos").text(contadorFallidas).css("visibility","visible")
-        $("img#imagen").attr("src", "./img/ahorcado_" + contadorFallidas + ".PNG")
+        $("img#imagen").attr("src", "https://thelinch.github.io/juegoAhorcado/img/ahorcado_" + contadorFallidas + ".PNG")
 
     }
 }
