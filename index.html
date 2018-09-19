@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <h1 style="text-align: center">Juego Ahorcado Iso 25000</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col s12 m8">
+                <h4 style="text-align: center">Ahorcado</h4>
+                <div style="position: relative; ">
+                    <span class="fallos hoverable" style="height: 30px; width: 30px;background: red; position: absolute;
+                    top: -20px;left: 2px;border-radius: 50%; visibility: hidden;text-align: center"></span>
+                    <img src="" alt="" id="imagen">
+
+                </div>
+            </div>
+            <div class="col s12 ">
+                <div class="palabra flex justify-content">
+
+                </div>
+            </div>
+        </div>
+        <div class="row">
+
+            <a disabled="true" class="waves-effect button waves-light btn right"><i class="material-icons left">send</i>Siguiente</a>
+        </div>
+        <div class=" flex  justify-content teclado ">
+            <div class="template">
+                <p class="letra"> </p>
+            </div>
+        </div>
+
+    </div>
+
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+<script src="./index.js"></script>
+
+</html>

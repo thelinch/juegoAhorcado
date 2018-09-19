@@ -1,0 +1,51 @@
+body{
+    box-sizing: border-box;
+}
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+.space-between{
+    align-content: space-between;
+}
+.caja{
+    width: 40px;
+    height: 40px;
+    border-bottom: 3px;
+    border-bottom-color: blueviolet;
+    border-bottom-style: double;
+    text-align: center;
+}
+.justify-content{
+    justify-content:space-between;
+
+}
+.space-arround{
+    align-content: space-around
+}
+.align-center{
+    align-items: center;
+}
+.template:hover{
+cursor: pointer;
+
+background:aqua;
+border-radius: 50% ;
+
+}
+.template{
+    background:darkgrey;
+    margin: 3px;
+    width: 60px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    box-shadow: 4px 4px rgb(80, 77, 77);
+height: 60px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.letra{
+    font-size: 18px;
+    font-weight: bold;
+}
